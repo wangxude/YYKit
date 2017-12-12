@@ -31,6 +31,8 @@
         _previousSize = self.bounds.size;
         [self.layer removeAllAnimations];
         [self.layer.sublayers makeObjectsPerformSelector:@selector(removeAllAnimations)];
+        
+        
     }
 }
 
